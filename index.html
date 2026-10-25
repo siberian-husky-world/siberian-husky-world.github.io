@@ -370,6 +370,43 @@ header.sc-topbar .sc-topbar-nav a:hover,header.sc-topbar .sc-topbar-nav a[aria-c
 @media(max-width:600px) {.sd-cover {display:flex;flex-direction:column;min-height:0;margin:0 0 30px}.sd-cover .breed-photo {height:320px;min-height:0;order:-1}.sd-cover-text {background:#172b34;padding:30px 24px}.sd-cover h1 {font-size:3.2rem;max-width:13ch}.sd-cover .intro {max-width:100%}.main-content {grid-template-columns:1fr}.main-content>article:first-of-type {display:block}.main-content>article:first-of-type h2 {font-size:2rem!important}.sidebar {padding:6px 20px}}
 
 </style>
+
+<style id="sidebar-follow-20261025">
+[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
+height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
+min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
+[data-follow-parent]{overflow:visible!important;align-items:start}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
+width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
+[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
+.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
+background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
+.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
+.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
+overflow-wrap:anywhere;line-height:1.45}
+@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
+max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
+.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
+</style>
+
+<!-- social-cards:start -->
+<meta property="og:title" content="Siberian Husky Guide — Care, Facts &amp; National Day">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://siberian-husky-world.github.io/">
+<meta property="og:description" content="Your complete resource for Siberian Husky lovers. Breed facts, care tips, national day celebration guide and more.">
+<meta property="og:image" content="https://siberian-husky-world.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:secure_url" content="https://siberian-husky-world.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="siberian husky world editorial illustration">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Siberian Husky Guide — Care, Facts &amp; National Day">
+<meta name="twitter:description" content="Your complete resource for Siberian Husky lovers. Breed facts, care tips, national day celebration guide and more.">
+<meta name="twitter:image" content="https://siberian-husky-world.github.io/assets/social-share-20261025.jpg">
+<meta name="twitter:image:alt" content="siberian husky world editorial illustration">
+<!-- social-cards:end -->
 </head>
 <body>
 <header class="sc-topbar">
@@ -411,7 +448,7 @@ header.sc-topbar .sc-topbar-nav a:hover,header.sc-topbar .sc-topbar-nav a[aria-c
       <span class="cat-tag">Health</span>
       <span class="cat-tag">Training</span>
     </div></div><figure class="breed-photo" aria-hidden="true"><img src="/assets/breed-editorial-v1.webp" alt="" width="1536" height="1024" fetchpriority="high" decoding="async"></figure></section>
-<div class="page-wrap">
+<div class="page-wrap" data-follow-parent="true">
 
   <!-- MAIN CONTENT -->
   <main class="main-content">
@@ -471,7 +508,7 @@ header.sc-topbar .sc-topbar-nav a:hover,header.sc-topbar .sc-topbar-nav a[aria-c
   </main>
 
   <!-- SIDEBAR -->
-  <aside class="sidebar">
+  <aside class="sidebar" data-follow-sidebar="existing">
     
     
 
